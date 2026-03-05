@@ -1,0 +1,32 @@
+﻿# React project
+node_modules/
+build/
+dist/
+*.log
+
+# Datasets & Models - STRICT
+**/data/
+**/models/*.pt
+**/models/*.pth
+**/models/*.h5
+**/models/*.keras
+**/models/*.onnx
+**/results/
+!**/data/.gitkeep
+!**/models/.gitkeep
+!**/results/.gitkeep
+
+# Logs
+*.log
+logs/
+mlruns/
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv
+.env
+data/
+venv/
+.ipynb_checkpoints
